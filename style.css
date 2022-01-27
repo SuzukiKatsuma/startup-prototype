@@ -1,0 +1,92 @@
+/****************
+Table Of Contents:
+ - Header
+ - Coordinate
+ - Selection
+ - Footer
+****************/
+
+* {
+  box-sizing: border-box;
+}
+
+/********************/
+/*    Coordinate    */
+/********************/
+.coordinate {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  margin: 8px;
+  padding: 16px;
+}
+
+.coordinate-board-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.coordinate-board-wrapper div button {
+  background-color: #0072b3;
+  border: none;
+  border-radius: 2px;
+  color: #f4f4f4;
+  cursor: pointer;
+  display: block;
+  margin: 0 0 0 auto;
+  padding: 8px;
+}
+
+.coordinate-board {
+  margin: 0;
+}
+
+.coordinate-board .person {
+  background-color: #d4dcd6;
+  border-radius: 2px;
+  display: block;
+  margin: auto;
+}
+
+.coordinate-board .tops {
+  display: block;
+  margin: auto;
+  margin-top: -612px;
+  z-index: 100;
+}
+
+.coordinate-board .bottoms {
+  display: block;
+  margin: auto;
+  margin-top: -612px;
+  z-index: 20;
+}
+
+.purchase-links {
+  display: block;
+  margin: 0 auto;
+}
+
+/********************/
+/*     Selection    */
+/********************/
+.selection {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  margin: 8px;
+  padding: 16px;
+}
+
+.option-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 16px 32px;
+}
+
+.option-wrapper p {
+  font-weight: bold;
+}
+
+.option-wrapper div details p {
+  font-weight: bold;
+  margin-left: 16px;
+}
